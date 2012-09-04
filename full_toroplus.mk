@@ -24,14 +24,13 @@
 # Camera
 PRODUCT_PACKAGES := \
     Camera \
-    Gallery \
-    GNexusParts
+    Gallery
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
     device/samsung/toroplus/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     device/samsung/toroplus/plus-apns-conf.xml:system/etc/apns-conf.xml \
-    frameworks/base/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
+    frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -47,12 +46,8 @@ PRODUCT_NAME := full_toroplus
 PRODUCT_DEVICE := toroplus
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := Galaxy Nexus
-BUILD_ID := IMM76D
-BUILD_DISPLAY := IMM76D.L700FC12
-BUILD_VERSION_INCREMENTAL := L700FC12
 PRODUCT_MANUFACTURER := samsung
-BUILD_DESCRIPTION := mysidspr-user 4.0.4 IMM76I 330937 release-keys
-BUILD_FINGERPRINT := samsung/mysidspr/toroplus:4.0.4/IMM76I/330937:user/release-keys
+
 
 
 
