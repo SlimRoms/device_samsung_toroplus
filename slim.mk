@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 
 #copy vold.fstab
 PRODUCT_COPY_FILES += \
-	device/samsung/tuna/vold.fstab:system/etc/vold.fstab
+	device/samsung/toroplus/vold.fstab:system/etc/vold.fstab
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
