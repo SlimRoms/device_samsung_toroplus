@@ -1,5 +1,10 @@
 [
     {
+        "repository":   "SlimRoms/device_samsung_tuna",
+        "target_path":  "device/samsung/tuna",
+        "branch":     "jb"
+    },
+    {
         "repository":   "SlimRoms/proprietary_vendor_imgtec",
         "target_path":  "vendor/imgtec",
         "branch":     "jb"
