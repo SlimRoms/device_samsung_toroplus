@@ -5,13 +5,13 @@
         "branch":     "jb"
     },
     {
-        "repository":   "SlimRoms/proprietary_vendor_imgtec",
-        "target_path":  "vendor/imgtec",
+        "repository":   "SlimRoms/proprietary_vendor_broadcom",
+        "target_path":  "vendor/broadcom",
         "branch":     "jb"
     },
     {
-        "repository":   "SlimRoms/proprietary_vendor_broadcom",
-        "target_path":  "vendor/broadcom",
+        "repository":   "SlimRoms/proprietary_vendor_imgtec",
+        "target_path":  "vendor/imgtec",
         "branch":     "jb"
     },
     {
