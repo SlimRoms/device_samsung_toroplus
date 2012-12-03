@@ -72,7 +72,6 @@ do
             system/app/BIP.apk \
             system/app/SDM.apk \
             system/app/SecPhone.apk \
-            system/app/SprintExtension.apk \
             system/app/SyncMLSvc.apk \
             system/bin/fRom \
             system/lib/libsecril-client.so \
