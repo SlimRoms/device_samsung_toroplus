@@ -7,6 +7,9 @@ $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
+# Inherit CDMA common stuff	11
+$(call inherit-product, vendor/slim/config/cdma.mk)
+
 # Inherit device settings
 $(call inherit-product, vendor/slim/config/common_nexus.mk)
 
