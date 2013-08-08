@@ -24,6 +24,9 @@ include device/samsung/tuna/BoardConfig.mk
 
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 30691799040
 
+# libsec-ril_lte.so is broke due to a missing symbol in surfacecomposerclient
+TARGET_TOROPLUS_RADIO_FIX := true
+
 # Use/add toroplus-specific variants
 TARGET_RECOVERY_UPDATER_LIBS += librecovery_updater_toroplus
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/toroplus
