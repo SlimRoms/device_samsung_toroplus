@@ -25,10 +25,13 @@
 /system/lib/libsyncml_port.so
 /system/lib/lib_gsd4t.so
 /system/vendor/bin/pvrsrvctl
+/system/vendor/bin/wmdsi
 /system/vendor/etc/sirfgps.conf
+/system/vendor/etc/smc_normal_world_android_cfg.ini
 /system/vendor/firmware/bcm4330.hcd
 /system/vendor/firmware/ducati-m3.bin
 /system/vendor/firmware/libpn544_fw.so
+/system/vendor/firmware/smc_pa_wvdrm.ift
 /system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so
 /system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so
 /system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so
