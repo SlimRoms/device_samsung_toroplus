@@ -11,12 +11,6 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Inherit CDMA common stuff	11
 $(call inherit-product, vendor/slim/config/cdma.mk)
 
-# Inherit device settings
-$(call inherit-product, vendor/slim/config/common_nexus.mk)
-
-# Inherit torch settings
-$(call inherit-product, vendor/slim/config/common_ledflash.mk)
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
 
